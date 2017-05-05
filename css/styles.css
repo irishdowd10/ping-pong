@@ -1,5 +1,11 @@
 .jumbotron {
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsIroARx6MEviPofM0dqOlWW4wokfhhGOOGPdhkcVcB-ceS3CAHg);
   height: 200px;
-
+  border: 2px solid black;
+  align-items: center;
+}
+body {
+  background-color: #FFA833;
+  border-color: black;
+  border-width: 2px;
 }
