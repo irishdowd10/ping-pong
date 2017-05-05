@@ -8,18 +8,19 @@ This program takes a given user number and returns a range of numbers from 1 to 
 
 
 ## Specifications
-*It can count up to a provided number.
--Input: 2
--Output: [1,2]
-*Numbers divisible by 3 return "Ping" in place of divisible number
--Input: 3
--Output: [1,2,Ping]
-*Numbers divisible by 5 return "Pong" in place of divisible number
--Input: 5
--Output: 1,2,Ping,4,Pong]
-*Numbers divisible by 15 return "Pong" in place of divisible number
--Input: 15
--Output: 1,2,Ping,4,Pong,Ping,7,8,Ping,Pong,11,Ping,13,14,Ping-Pong]    
+
+* It can count up to a provided number.
+  -Input: 2
+  -Output: [1,2]
+* Numbers divisible by 3 return "Ping" in place of divisible number
+  -Input: 3
+  -Output: [1,2,Ping]
+* Numbers divisible by 5 return "Pong" in place of divisible number
+  -Input: 5
+  -Output: 1,2,Ping,4,Pong]
+* Numbers divisible by 15 return "Pong" in place of divisible number
+  -Input: 15
+  -Output: 1,2,Ping,4,Pong,Ping,7,8,Ping,Pong,11,Ping,13,14,Ping-Pong]    
 
 ### Link https://github.com/irishdowd10/ping-pong.git
 
@@ -30,7 +31,7 @@ This program takes a given user number and returns a range of numbers from 1 to 
 * Clone the project in a text editor of your choice
 
 ## Known Bugs
-__????
+No known issues with the program
 
 ## Support and contact details
 
