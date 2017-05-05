@@ -10,7 +10,7 @@ This program takes a given user number and returns a range of numbers from 1 to 
 ## Specifications
 
 * It can count up to a provided number.
-  -Input: 2
+  **  Input: 2
   -Output: [1,2]
 * Numbers divisible by 3 return "Ping" in place of divisible number
   -Input: 3
