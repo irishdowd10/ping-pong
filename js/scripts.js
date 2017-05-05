@@ -19,16 +19,16 @@ var pingPong = function(number) {
 $(document).ready(function(){
   $("form#ping-pong").submit(function(event) {
     event.preventDefault();
-    var resultUl  = $('ul#result');
+    var resultUl  = $("ul#result");
     var playerNum = parseInt($("input#number").val());
-    // Empty out unordered list
+    // Empty out  unordered list
     resultUl.empty();
 
     // Iterate through result array and print values
     var pingPongArray = pingPong(playerNum); // [1, 2, ping, 4]
 
     for(var x = 0; x < pingPongArray.length; x++) {
-      resultUl.append('<li>' + pingPongArray[x] + '</li>');
+      resultUl.append("<li>"+ pingPongArray[x] + "</li>");
     }
 
   });
