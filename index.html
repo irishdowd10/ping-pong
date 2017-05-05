@@ -13,16 +13,19 @@
       <div class="jumbotron">
         <h1>Ping Pong</h1>
       </div>
-      <h2>Lets Play Some Ping Pong!</h2>
-      <h3>Rules of Play</h3>
-      <p>Ping Pong will count up to your number with the following excpetions:</p>
-        <ol>
-          <li>Numbers divisible by 3 become "ping"</li>
-          <li>Numbers divisible by 5 become "pong"</li>
-          <li>Numbers divisible by 15 become "ping-pong"</li>
-        </ol>
+
+      <div class="panel">
+        <h2>Lets Play Some Ping Pong!</h2>
+        <h3>Rules of Play</h3>
+        <p>Ping Pong will count up to your number with the following excpetions:</p>
+          <ol>
+            <li>Numbers divisible by 3 become "ping"</li>
+            <li>Numbers divisible by 5 become "pong"</li>
+            <li>Numbers divisible by 15 become "ping-pong"</li>
+          </ol>
+      </div>
         <div class="formOne">
-          <form id="pingPong">
+          <form id="ping-pong">
             <div class="form-group">
               <label for="userNumber">Enter Your Number Here:</label>
               <input type="text" id="number" class="form-control">
@@ -30,9 +33,13 @@
 
             <p> <button type="submit" class="btn"> Submit</button> </p>
           </form>
+        </div>
+        <div id="result">
+          <ul>
+
+          </ul>
 
         </div>
-
     </div>
 
   </body>
